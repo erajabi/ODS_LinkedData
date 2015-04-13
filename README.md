@@ -27,4 +27,5 @@ Issues:
 - Find fuseki service after running: ps aux | grep java 
 results: uah       3230 java -jar -Xmx2G /home/uah/ODS_LinkedData/jena-fuseki-1.0.1/fuseki-server.jar --file=Data/ODS_subset.ttl /ods
 kill -9 3230
-- 
+- Running the service on linux: java -jar -Xmx4G /home/uah/ODS_LinkedData/jena-fuseki-1.0.1/fuseki-server.jar --loc=ODSTripleStore  /ods &
+
