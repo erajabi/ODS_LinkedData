@@ -21,3 +21,10 @@ Then we ran [Jena Fuseki ](http://jena.apache.org/documentation/serving_data/) b
 `fuseki-server --loc=ODSTripleStore /ods` 
 
 For more information about configuring Jena Fuseki you can read [here ](http://jena.apache.org/documentation/serving_data/)
+
+
+Issues:
+- Find fuseki service after running: ps aux | grep java 
+results: uah       3230 java -jar -Xmx2G /home/uah/ODS_LinkedData/jena-fuseki-1.0.1/fuseki-server.jar --file=Data/ODS_subset.ttl /ods
+kill -9 3230
+- 
